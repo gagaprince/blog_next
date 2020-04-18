@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "gagablog",
+      "script": "./server.js",
+      "exec_interpreter": "node",
+      "node_args": "--harmony",
+      "exec_mode": "cluster_mode",
+      "instances": 1,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "error_file": "./logs/console-error.log",
+      "out_file": "./logs/console-out.log",
+      "pid_file": "./logs/blog.pid",
+      "watch": false
+    }
+  ]
+}

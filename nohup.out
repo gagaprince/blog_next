@@ -1,0 +1,166 @@
+
+> blog_next@1.0.0 nodaemon /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 startOrGracefulReload pm2.json --no-daemon
+
+pm2 launched in no-daemon mode (you can add DEBUG="*" env variable to get more messages)
+2020-04-18T15:57:37: PM2 log: Launching in no daemon mode
+2020-04-18T15:57:37: PM2 log: [PM2][WARN] Applications gagablog not running, starting...
+2020-04-18T15:57:37: PM2 log: App [gagablog:0] starting in -cluster mode-
+2020-04-18T15:57:37: PM2 log: App [gagablog:0] online
+2020-04-18T15:57:37: PM2 log: [PM2] App [gagablog] launched (1 instances)
+2020-04-18T15:57:37: PM2 log: ┌─────┬─────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ gagablog    │ default     │ 1.0.0   │ cluster │ 25574    │ 0s     │ 0    │ online    │ 0%       │ 27.7mb   │ gagapri… │ disabled │
+└─────┴─────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2020-04-18T15:57:37: PM2 log: [--no-daemon] Continue to stream logs
+2020-04-18T15:57:37: PM2 log: [--no-daemon] Exit on target PM2 exit pid=25573
+15:57:40 0|gagablog  | 2020-04-18 15:57 +08:00: [ ready ] compiled successfully
+15:57:41 0|gagablog  | 2020-04-18 15:57 +08:00: > Ready on http://localhost:8080
+15:57:55 0|gagablog  | 2020-04-18 15:57 +08:00: [ event ] build page: /
+15:57:55 0|gagablog  | 2020-04-18 15:57 +08:00: [ wait ]  compiling ...
+15:57:55 0|gagablog  | 2020-04-18 15:57 +08:00: [ ready ] compiled successfully
+2020-04-18T15:58:07: PM2 log: Stopping app:gagablog id:0
+15:58:07 PM2         | Stopping app:gagablog id:0
+2020-04-18T15:58:07: PM2 log: App name:gagablog id:0 disconnected
+15:58:07 PM2         | App name:gagablog id:0 disconnected
+2020-04-18T15:58:07: PM2 log: App [gagablog:0] exited with code [0] via signal [SIGINT]
+15:58:07 PM2         | App [gagablog:0] exited with code [0] via signal [SIGINT]
+2020-04-18T15:58:07: PM2 log: pid=25574 msg=process killed
+15:58:07 PM2         | pid=25574 msg=process killed
+2020-04-18T15:58:08: PM2 log: PM2 successfully stopped
+
+> blog_next@1.0.0 nodaemon /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 startOrGracefulReload pm2.json --no-daemon
+
+pm2 launched in no-daemon mode (you can add DEBUG="*" env variable to get more messages)
+[PM2][WARN] Applications gagablog not running, starting...
+[PM2] App [gagablog] launched (1 instances)
+┌─────┬─────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ gagablog    │ default     │ 1.0.0   │ cluster │ 25772    │ 0s     │ 0    │ online    │ 0%       │ 27.6mb   │ gagapri… │ disabled │
+└─────┴─────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[--no-daemon] Continue to stream logs
+[--no-daemon] Exit on target PM2 exit pid=25709
+15:58:29 0|gagablog  | 2020-04-18 15:58 +08:00: [ ready ] compiled successfully
+15:58:29 0|gagablog  | 2020-04-18 15:58 +08:00: > Ready on http://localhost:8080
+15:58:31 0|gagablog  | 2020-04-18 15:58 +08:00: [ event ] build page: /
+15:58:31 0|gagablog  | 2020-04-18 15:58 +08:00: [ wait ]  compiling ...
+15:58:31 0|gagablog  | 2020-04-18 15:58 +08:00: [ ready ] compiled successfully
+
+> blog_next@1.0.0 nodaemon /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 startOrGracefulReload pm2.json --no-daemon
+
+pm2 launched in no-daemon mode (you can add DEBUG="*" env variable to get more messages)
+[PM2] Applying action softReloadProcessId on app [gagablog](ids: 0)
+15:59:56 PM2         | App [gagablog:0] starting in -cluster mode-
+15:59:56 PM2         | App [gagablog:0] online
+15:59:59 0|gagablog  | 2020-04-18 15:59 +08:00: [ ready ] compiled successfully
+15:59:59 0|gagablog  | 2020-04-18 15:59 +08:00: [ wait ]  compiling ...
+16:00:00 0|gagablog  | 2020-04-18 16:00 +08:00: > Ready on http://localhost:8080
+16:00:00 0|gagablog  | 2020-04-18 16:00 +08:00: [ ready ] compiled successfully
+16:00:00 0|gagablog  | 2020-04-18 16:00 +08:00: [ wait ]  compiling ...
+16:00:00 0|gagablog  | 2020-04-18 16:00 +08:00: [ ready ] compiled successfully
+16:00:07 PM2         | Stopping app:gagablog id:_old_0
+16:00:07 PM2         | App name:gagablog id:_old_0 disconnected
+16:00:07 PM2         | App [gagablog:_old_0] exited with code [0] via signal [SIGINT]
+16:00:07 PM2         | pid=25772 msg=process killed
+[PM2] [gagablog](0) ✓
+┌─────┬─────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ gagablog    │ default     │ 1.0.0   │ cluster │ 25915    │ 11s    │ 1    │ online    │ 28.7%    │ 188.5mb  │ gagapri… │ disabled │
+└─────┴─────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[--no-daemon] Continue to stream logs
+[--no-daemon] Exit on target PM2 exit pid=25709
+16:00:12 0|gagablog  | 2020-04-18 16:00 +08:00: [ event ] build page: /next/dist/pages/_error
+16:00:12 0|gagablog  | 2020-04-18 16:00 +08:00: [ wait ]  compiling ...
+16:00:12 0|gagablog  | 2020-04-18 16:00 +08:00: [ event ] build page: /next/dist/pages/_error
+16:00:12 0|gagablog  | 2020-04-18 16:00 +08:00: [ wait ]  compiling ...
+16:00:12 16:00:12 0|gagablog  | 2020-04-18 16:00 +08:00: [ ready ] compiled successfully
+0|gagablog  | 2020-04-18 16:00 +08:00: [ ready ] compiled successfully
+16:00:17 0|gagablog  | 16:00:17 2020-04-18 16:00 +08:00: [ event ] build page: /
+0|gagablog  | 2020-04-18 16:00 +08:00: [ event ] build page: /
+16:00:17 0|gagablog  | 2020-04-18 16:00 +08:00: [ wait ]  compiling ...
+16:00:17 0|gagablog  | 2020-04-18 16:00 +08:00: [ wait ]  compiling ...
+16:00:17 16:00:17 0|gagablog  | 0|gagablog  | 2020-04-18 16:00 +08:00: [ ready ] compiled successfully
+2020-04-18 16:00 +08:00: [ ready ] compiled successfully
+
+> blog_next@1.0.0 stop /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 kill
+
+[PM2] [v] Modules Stopped
+[PM2] Applying action deleteProcessId on app [all](ids: 0)
+16:00:19 PM2         | Stopping app:gagablog id:0
+16:00:19 PM2         | Stopping app:gagablog id:0
+16:00:19 16:00:19 PM2         | App name:gagablog id:0 disconnected
+PM2         | App name:gagablog id:0 disconnected
+16:00:19 16:00:19 PM2         | PM2         | App [gagablog:0] exited with code [0] via signal [SIGINT]
+App [gagablog:0] exited with code [0] via signal [SIGINT]
+16:00:19 16:00:19 PM2         | PM2         | pid=25915 msg=process killed
+pid=25915 msg=process killed
+[PM2] [gagablog](0) ✓
+[PM2] [v] All Applications Stopped
+[PM2] [v] PM2 Daemon Stopped
+16:00:19 PM2        | [[[ Target PM2 killed. ]]]16:00:19 PM2        | [[[ Target PM2 killed. ]]]
+> blog_next@1.0.0 nodaemon /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 startOrGracefulReload pm2.json --no-daemon
+
+pm2 launched in no-daemon mode (you can add DEBUG="*" env variable to get more messages)
+[PM2][WARN] Applications gagablog not running, starting...
+[PM2] App [gagablog] launched (1 instances)
+┌─────┬─────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ gagablog    │ default     │ 1.0.0   │ cluster │ 26220    │ 0s     │ 0    │ online    │ 0%       │ 27.5mb   │ gagapri… │ disabled │
+└─────┴─────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[--no-daemon] Continue to stream logs
+[--no-daemon] Exit on target PM2 exit pid=26062
+16:02:07 0|gagablog  | 2020-04-18 16:02 +08:00: [ ready ] compiled successfully
+16:02:07 0|gagablog  | 2020-04-18 16:02 +08:00: > Ready on http://localhost:8080
+16:02:12 0|gagablog  | 2020-04-18 16:02 +08:00: [ event ] build page: /
+16:02:12 0|gagablog  | 2020-04-18 16:02 +08:00: [ wait ]  compiling ...
+16:02:12 0|gagablog  | 2020-04-18 16:02 +08:00: [ ready ] compiled successfully
+16:02:12 0|gagablog  | 2020-04-18 16:02 +08:00: 一个访问来了
+16:02:30 0|gagablog  | 2020-04-18 16:02 +08:00: 一个访问来了
+16:02:31 0|gagablog  | 2020-04-18 16:02 +08:00: 一个访问来了
+16:02:31 0|gagablog  | 2020-04-18 16:02 +08:00: 一个访问来了
+16:02:31 0|gagablog  | 2020-04-18 16:02 +08:00: 一个访问来了
+
+> blog_next@1.0.0 stop /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 kill
+
+[PM2] [v] Modules Stopped
+[PM2] Applying action deleteProcessId on app [all](ids: 0)
+16:03:06 PM2         | Stopping app:gagablog id:0
+16:03:07 PM2         | App name:gagablog id:0 disconnected
+16:03:07 PM2         | App [gagablog:0] exited with code [0] via signal [SIGINT]
+16:03:07 PM2         | pid=26220 msg=process killed
+[PM2] [gagablog](0) ✓
+[PM2] [v] All Applications Stopped
+[PM2] [v] PM2 Daemon Stopped
+16:03:07 PM2        | [[[ Target PM2 killed. ]]]
+> blog_next@1.0.0 nodaemon /Users/gagaprince/work/wzdwork/code/blog_next
+> pm2 startOrGracefulReload pm2.json --no-daemon
+
+pm2 launched in no-daemon mode (you can add DEBUG="*" env variable to get more messages)
+2020-04-18T16:03:09: PM2 log: Launching in no daemon mode
+2020-04-18T16:03:09: PM2 log: [PM2][WARN] Applications gagablog not running, starting...
+2020-04-18T16:03:09: PM2 log: App [gagablog:0] starting in -cluster mode-
+2020-04-18T16:03:09: PM2 log: App [gagablog:0] online
+2020-04-18T16:03:09: PM2 log: [PM2] App [gagablog] launched (1 instances)
+2020-04-18T16:03:10: PM2 log: ┌─────┬─────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ gagablog    │ default     │ 1.0.0   │ cluster │ 26375    │ 0s     │ 0    │ online    │ 0%       │ 27.4mb   │ gagapri… │ disabled │
+└─────┴─────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2020-04-18T16:03:10: PM2 log: [--no-daemon] Continue to stream logs
+2020-04-18T16:03:10: PM2 log: [--no-daemon] Exit on target PM2 exit pid=26374
+16:03:13 0|gagablog  | 2020-04-18 16:03:13 +08:00: [ ready ] compiled successfully
+16:03:13 0|gagablog  | 2020-04-18 16:03:13 +08:00: > Ready on http://localhost:8080
+16:03:14 0|gagablog  | 2020-04-18 16:03:14 +08:00: [ event ] build page: /
+16:03:14 0|gagablog  | 2020-04-18 16:03:14 +08:00: [ wait ]  compiling ...
+16:03:14 0|gagablog  | 2020-04-18 16:03:14 +08:00: [ ready ] compiled successfully
+16:03:14 0|gagablog  | 2020-04-18 16:03:14 +08:00: 一个访问来了
+16:03:16 0|gagablog  | 2020-04-18 16:03:16 +08:00: 一个访问来了
